@@ -1,0 +1,30 @@
+@media (min-width: 100px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(17, 11, 11);
+    /* border-bottom: 1px solid black;*/
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 4em;
+  }
+  .logo,
+  .sections {
+    margin: 1em 2em 1em 2em;
+  }
+  ul,
+  li {
+    list-style: none;
+  }
+}
+@media (min-width: 600px) {
+  .sections {
+    width: 70%;
+  }
+  ul {
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
