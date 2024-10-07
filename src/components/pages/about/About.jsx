@@ -12,7 +12,7 @@ const About = () => {
             left: "50%",
             transform: "translate(-50%, -50%)",
             color: "white",
-            zIndex: 1, // Asegúrate de que esté en un índice más alto que el fondo
+            zIndex: 1,
           }}
         >
           Bienvenido a mi portfolio
