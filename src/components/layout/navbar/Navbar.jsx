@@ -50,6 +50,8 @@ const Navbar = () => {
         position="static"
         sx={{
           backgroundColor: "inherit",
+          zIndex: "100",
+          position: "relative",
         }}
       >
         <Container maxWidth="xl">
