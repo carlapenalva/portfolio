@@ -33,8 +33,16 @@ const Navbar = () => {
       <header>
         <div className="logo">
           <img
-            src="https://res.cloudinary.com/dvuap85l1/image/upload/v1726368692/samples/Portafolio/desarrolladoraLogo_gvxpy2.png"
+            src="https://res.cloudinary.com/dvuap85l1/image/upload/v1729464646/iconoCod_s9clud.png"
             alt="logo"
+          />
+          <p className="parrafoUno">Carla Peñalva</p>
+          <p className="parrafoDos">CP</p>
+        </div>
+        <div className="menu">
+          <img
+            src="https://res.cloudinary.com/dvuap85l1/image/upload/v1729468487/menu_aqytqq.png"
+            alt="menu"
           />
         </div>
         <div className="sections">
