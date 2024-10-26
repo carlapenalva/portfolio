@@ -1,0 +1,14 @@
+@media (min-width: 100px) {
+  .aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  h2 {
+    border-bottom: 1px solid #ffb0c9;
+  }
+  h1 {
+    font-weight: 100;
+  }
+}

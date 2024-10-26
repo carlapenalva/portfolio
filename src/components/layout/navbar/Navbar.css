@@ -10,17 +10,14 @@
     margin-bottom: 4em;
   }
   .logo {
-    margin: 1em 2em 1em 2em;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 1em 1em 0em 1em;
   }
 
   .parrafoUno {
     border-bottom: 1px solid #ff8799;
     /*#88B2D2*/
-    display: none;
-  }
-  .parrafoDos {
-    border-bottom: 1px solid #ff8799;
-    display: none;
   }
 
   .menu {
@@ -40,14 +37,7 @@
   .menu {
     display: none;
   }
-  .logo {
-    display: flex;
-    flex-direction: row;
-    gap: 1em;
-  }
-  .parrafoDos {
-    display: flex;
-  }
+
   .sections {
     display: flex;
     width: 70%;
@@ -59,10 +49,4 @@
   }
 }
 @media (min-width: 900px) {
-  .parrafoDos {
-    display: none;
-  }
-  .parrafoUno {
-    display: flex;
-  }
 }
