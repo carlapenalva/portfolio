@@ -16,8 +16,8 @@
   }
 
   .parrafoUno {
-    border-bottom: 1px solid #ff8799;
-    /*#88B2D2*/
+    text-decoration: underline;
+    text-decoration-color: #ffb0c9;
   }
 
   .menu {
