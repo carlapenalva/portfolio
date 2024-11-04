@@ -1,0 +1,9 @@
+@media (min-width: 100px) {
+  .tittleProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10em 0 4em 0;
+  }
+}

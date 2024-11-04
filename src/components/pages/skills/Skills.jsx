@@ -1,13 +1,21 @@
-import "./Skilss.css";
+import "./Skills.css";
+import { Typography } from "@mui/material";
 const Skills = () => {
   return (
     <section style={{ position: "relative" }} className="sectionSkills">
-      <div>
+      <div className="tittleSkills">
         <img
           src="https://res.cloudinary.com/dvuap85l1/image/upload/v1730075296/icons8-computer-science-48_ck6yyd.png"
           alt=""
         />
-        <h2>Skills Tecnicos</h2>
+        <Typography
+          variant="h5"
+          align="center"
+          gutterBottom
+          style={{ position: "relative" }}
+        >
+          Skills Tecnicos
+        </Typography>
       </div>
       <div className="skills">
         <figure>
