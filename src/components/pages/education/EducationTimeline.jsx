@@ -42,9 +42,10 @@ const EducationTimeline = () => {
           backgroundColor: "#111",
           color: "#fff",
           padding: "20px",
+          display: { sm: "none" },
         }}
       >
-        <Timeline position="rigth" sx={{ display: { sm: "none" } }}>
+        <Timeline position="rigth">
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" sx={{ color: "#FFB0C9" }}>
@@ -64,8 +65,7 @@ const EducationTimeline = () => {
                 }}
               >
                 <Typography variant="h6"> Coderhouse </Typography>
-                <Typography>Desarrollador Web</Typography>
-                <Typography variant="body2">HTML, CSS, SASS</Typography>
+                <Typography variant="body2">Desarrollador Web</Typography>
               </Box>
             </TimelineContent>
           </TimelineItem>
@@ -88,12 +88,7 @@ const EducationTimeline = () => {
                 }}
               >
                 <Typography variant="h6"> Coderhouse </Typography>
-                <Typography> JavaScript</Typography>
-                <Typography variant="body2">
-                  Desarrollo de Plantillas web estáticas con tecnologías como
-                  HTML, CSS, JavaScript, ReactJs, Next.js, Bootstrap y Material
-                  UI.
-                </Typography>
+                <Typography variant="body2"> JavaScript</Typography>
               </Box>
             </TimelineContent>
           </TimelineItem>
@@ -116,12 +111,7 @@ const EducationTimeline = () => {
                 }}
               >
                 <Typography variant="h6"> Coderhouse </Typography>
-                <Typography> React JS</Typography>
-                <Typography variant="body2">
-                  Desarrollo de Plantillas web estáticas con tecnologías como
-                  HTML, CSS, JavaScript, ReactJs, Next.js, Bootstrap y Material
-                  UI.
-                </Typography>
+                <Typography variant="body2"> React JS</Typography>
               </Box>
             </TimelineContent>
           </TimelineItem>
@@ -143,20 +133,22 @@ const EducationTimeline = () => {
                   padding: "16px",
                 }}
               >
-                <Typography variant="h6">Educacion IT</Typography>
-                <Typography> JavaScript Avanzado</Typography>
-                <Typography variant="body2">
-                  Desarrollo y mantenimiento de sitios web Fullstack para
-                  emprendimientos personales de clientes y empresas.
-                </Typography>
+                <Typography variant="h6">EducacionIT</Typography>
+                <Typography variant="body2"> JavaScript Avanzado</Typography>
               </Box>
             </TimelineContent>
           </TimelineItem>
         </Timeline>
-        <Timeline
-          position="alternate"
-          sx={{ display: { xs: "none", sm: "block" } }}
-        >
+      </Box>
+      <Box
+        sx={{
+          backgroundColor: "rgb(17, 11, 11)",
+          borderRadius: "8px",
+          padding: "16px",
+          display: { xs: "none", sm: "block" },
+        }}
+      >
+        <Timeline position="alternate">
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" sx={{ color: "#FFB0C9" }}>
