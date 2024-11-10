@@ -45,7 +45,7 @@ const EducationTimeline = () => {
           display: { sm: "none" },
         }}
       >
-        <Timeline position="rigth">
+        <Timeline position="right">
           <TimelineItem>
             <TimelineOppositeContent>
               <Typography variant="body2" sx={{ color: "#FFB0C9" }}>
